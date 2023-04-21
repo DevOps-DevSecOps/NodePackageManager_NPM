@@ -1,0 +1,2 @@
+npm install                                                                 # to download all the dependencies
+npm test                                                                    # to perform test case execution
