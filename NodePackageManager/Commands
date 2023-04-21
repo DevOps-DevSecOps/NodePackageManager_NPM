@@ -1,2 +1,3 @@
+npm init                                                                    # it create a package.json with default values
 npm install                                                                 # to download all the dependencies
 npm test                                                                    # to perform test case execution
