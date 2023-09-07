@@ -4,3 +4,12 @@ Node Package Manager (npm) is used to build for NodeJS.
 ● package.json
 The package.json file is the heart of Node.js system.
 It is the manifest file of any Node.js project and contains the metadata of the project.
+package-name: The name of your package must be unique. Also it must be lowercase.
+version: The initial value is 1.0.0. You update the number when you update your package using semantic versioning.
+description: It provide a description of package.
+entry point: The default value is index.js.
+test command: It can add the command want to run when a user runs npm run test.
+git repository: The link to remote repository on GitHub.
+keywords: Add relevant keywords that will help others find package on the NPM registry.
+author: Add name.
+license: It can add a license or use the default license.
