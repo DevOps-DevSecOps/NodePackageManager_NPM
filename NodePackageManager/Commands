@@ -1,3 +1,5 @@
 npm init                                                                    # it create a package.json with default values
 npm install                                                                 # to download all the dependencies
 npm test                                                                    # to perform test case execution
+npm login                                                                   # prompt to enter username and password on https://registry.npmjs.org/
+npm publish                                                                 # publish a package on the NPM registry
