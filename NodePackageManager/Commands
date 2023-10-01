@@ -2,6 +2,7 @@ npm init                                                                    # it
 
 npm install                                                                 # to download and install all the dependencies packages
 npm install PACKAGE_NAME                                                    # install a package locally means use the package’s functionality in the current directory
+npm install PACKAGE_NAME --save
 npm install -g PACKAGE_NAME                                                 # install a package globally
 
 npm test                                                                    # to perform test case execution
