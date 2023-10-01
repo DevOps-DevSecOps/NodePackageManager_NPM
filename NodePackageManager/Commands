@@ -1,5 +1,35 @@
 npm init                                                                    # it create a package.json with default values
-npm install                                                                 # to download all the dependencies
+
+npm install                                                                 # to download and install all the dependencies packages
+npm install PACKAGE_NAME                                                    # install a package locally means use the package’s functionality in the current directory
+npm install -g PACKAGE_NAME                                                 # install a package globally
+
 npm test                                                                    # to perform test case execution
+
+npm list                                                                    # list of packages installed locally
+npm list -g                                                                 # lists all the packages installed globally
+
 npm login                                                                   # prompt to enter username and password on https://registry.npmjs.org/
+
 npm publish                                                                 # publish a package on the NPM registry
+
+npm restart
+
+npm update                                                                  # update an npm package to its latest version
+npm update PACKAGE_NAME
+npm update -g PACKAGE_NAME
+
+npm uninstall                                                               # uninstall a package
+npm uninstall PACKAGE_NAME                                                  # uninstalling a locally installed npm package
+npm uninstall -g PACKAGE_NAME                                               # uninstall a package globally
+
+npm start
+
+npm stop
+
+npm version
+npm -v
+node -v
+
+[Change Location of npm Packages]
+npm config set prefix /FOLDER_NAME/FOLDER_NAME
