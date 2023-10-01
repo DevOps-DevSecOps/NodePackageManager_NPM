@@ -3,7 +3,12 @@ Node Package Manager (npm) is used to build for NodeJS.
 
 ● package.json
 The package.json file is the heart of Node.js system.
+The package.json file helps us keep track of all the installed packages in a given project.
 It is the manifest file of any Node.js project and contains the metadata of the project.
+When creating a new project, it is important to start by creating this file.
+It stores information about a project like the name of the project, its version, scripts, dependencies, and more.
+When we install packages, a node_modules folder is created where can see other folders — namely, each package’s folder and subfolders.
+In package.json file, packages are listed under dependencies because project is “depending” on those packages to get work done.
 package-name: The name of your package must be unique. Also it must be lowercase.
 version: The initial value is 1.0.0. You update the number when you update your package using semantic versioning.
 description: It provide a description of package.
