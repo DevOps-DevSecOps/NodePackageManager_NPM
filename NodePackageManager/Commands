@@ -13,6 +13,8 @@ npm login                                                                   # pr
 
 npm publish                                                                 # publish a package on the NPM registry
 
+npm run
+
 npm restart
 
 npm update                                                                  # update an npm package to its latest version
@@ -28,8 +30,12 @@ npm start
 npm stop
 
 npm version
+npm --version
 npm -v
+node --version
 node -v
 
 [Change Location of npm Packages]
-npm config set prefix /FOLDER_NAME/FOLDER_NAME
+npm config list
+npm config get prefix
+npm config set prefix=$HOME/FOLDER_NAME/FOLDER_NAME
