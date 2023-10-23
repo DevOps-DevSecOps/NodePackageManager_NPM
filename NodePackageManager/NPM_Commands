@@ -1,0 +1,4 @@
+● SonarQube
+npm install sonarqube-scanner
+npm install -D sonarqube-scanner                                                    # to add code analysis to your build files, simply add the package to project dev dependencies
+npm install -g sonarqube-scanner                                                    # to install the scanner globally and be able to run analyses
