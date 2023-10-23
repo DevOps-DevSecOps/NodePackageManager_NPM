@@ -1,6 +1,6 @@
 npm init                                                                    # it create a package.json with default values
 
-npm install                                                                 # to download and install all the dependencies packages
+npm install                                                                 # to download and install all the modules listed as dependencies packages in package.json local node_modules folder
 npm install PACKAGE_NAME                                                    # install a package locally means use the package’s functionality in the current directory
 npm install PACKAGE_NAME --save
 npm install -g PACKAGE_NAME                                                 # install a package globally
@@ -9,6 +9,7 @@ npm test                                                                    # to
 
 npm list                                                                    # list of packages installed locally
 npm list -g                                                                 # lists all the packages installed globally
+npm list --global
 
 npm login                                                                   # prompt to enter username and password on https://registry.npmjs.org/
 
