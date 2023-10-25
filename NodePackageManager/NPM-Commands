@@ -41,3 +41,6 @@ node -v
 npm config list
 npm config get prefix
 npm config set prefix=$HOME/FOLDER_NAME/FOLDER_NAME
+
+
+node FILE_NAME.js
