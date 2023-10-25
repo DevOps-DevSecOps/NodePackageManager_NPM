@@ -1,7 +1,7 @@
 [npm install]
 $ npm install PACKAGE_NAME
 It will use the latest tag by default.
-So each package has different version.
+So each package has different versions.
 It will create the node_modules directory in the current directory and will download the package to that directory, where we executing the npm commands.
 If there is no package.json file in the local current directory, the latest version of the package is installed.
 If there is a package.json file, npm installs the latest version.
