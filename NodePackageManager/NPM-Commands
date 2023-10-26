@@ -27,7 +27,7 @@ npm uninstall                                                               # un
 npm uninstall PACKAGE_NAME                                                  # uninstalling a locally installed npm package
 npm uninstall -g PACKAGE_NAME                                               # uninstall a package globally
 
-npm start
+npm start                                                                   # to run the application
 
 npm stop
 
