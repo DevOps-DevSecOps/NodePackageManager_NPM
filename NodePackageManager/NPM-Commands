@@ -43,4 +43,4 @@ npm config get prefix
 npm config set prefix=$HOME/FOLDER_NAME/FOLDER_NAME
 
 
-node FILE_NAME.js
+node FILE_NAME.js                                                           # to run the application simillar to "npm start" command
