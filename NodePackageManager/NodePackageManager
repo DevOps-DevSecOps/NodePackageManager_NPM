@@ -1,5 +1,6 @@
-Node Package Manager (npm) is used for different packages and manage their dependencies.
-Node Package Manager (npm) is used to build for NodeJS.
+Node Package Manager (NPM) is a package manager for Node.js packages.
+Node Package Manager (NPM) is used for different packages and manage their dependencies.
+Node Package Manager (NPM) is used to build for NodeJS.
 
 ● package.json
 The package.json file is the heart of Node.js system.
